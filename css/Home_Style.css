@@ -1,0 +1,126 @@
+html body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h3 {
+
+    line-height: 1.375em;
+    color: #303030;
+
+        text-align: justify;
+    text-justify: inter-word;
+}
+.container-fluid {
+    padding: 10px 50px;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #6A9C7B;
+    font-family: Montserrat, sans-serif;
+     color: #fff !important;
+     /*font-size: 125%*/
+     font-size: calc(15px + 0.5vw);
+}
+
+.shrinkMainTitle {
+   font-size: calc(15px + 1.5vw);
+      // Animation
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+       padding-top: 20px;
+    padding-bottom: 15px;
+   
+   
+}
+.shrinkSubTitle {
+   font-size: 0px;
+    
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #E6B5AC !important;
+    background-color: #6A9C7B !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #6A9C7B !important;
+}
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+    color: #6A9C7B !important;
+    font-size: 1vw;
+}
+
+.nav{
+padding-right: 5vw;
+}
+
+.location-icon {
+    
+    color: #000000  !important;
+    font-size: 1.6vw;
+    padding-top: 10px;
+}
+.location-text {
+font-size: calc(5px + 1.0vw);
+
+    /*font-size: 1.6vw;*/
+    
+    font-family: Montserrat, sans-serif;
+}
+
+
+.about-us {
+    padding: 30px 50px;
+    text-align: left;
+    width: 75%;
+}
+
+#intro {
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    padding: 0px 0;
+}
+#section1 {
+    background: url(../img/us_van.png) 90% 0% fixed;
+    background-repeat: no-repeat;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.8);
+    padding: 300px 0;
+}
+#section2 {
+    background: url(../img/moab1.png) 10% 0% fixed;
+    background-repeat: no-repeat;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.8);
+    padding: 300px 0;
+}
+
+
+.CarouselImg img {
+  width: auto;
+  height: 650px;
+  max-height: 650px;
+  overflow: hidden;
+
+}
