@@ -36,6 +36,7 @@
             }
         });
     </script>
+    <!-- Navbar at top of page which includes title/menu and current location -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="col-xs-3 col-md-2">
             <div class="navbar-loc">
@@ -68,7 +69,6 @@
 					</ul>
 				</h4>
         </div>
-        </div>
         <div class="col-xs-3 col-md-1"></div>
         <div class="col-xs-5 col-md-6">
             <subTitle class="mySubtitle">
@@ -76,6 +76,8 @@
             </subTitle>
         </div>
     </nav>
+	
+<!-- about us section -->	
     <div id="home" class="container-fluid">
         <div class="row">
             <br>
@@ -92,18 +94,11 @@
 					We are Ben Gotthold and Dan Murphy. We live in a van, follow the weather, and are always in search of the next great rock or trail. Find our stories and adventures <a href="#blog">HERE</a> or send us a mail at epicvantrip@gmail.com </h4>
 					<br>
 				</div>
-				<!--<div class="col-xs-12 col-md-6" >
-					<section id="section1" data-speed="6" data-type="background">
-					</section>
-					</div> -->
 			</div>
 		</div>
+		<!-- photo carousel which populates with photos from a facebook album -->
 		<div  class="container-fluid" id="photos">
 			<div class="row">
-				<!--<div class="col-xs-12 col-md-6">
-					<section id="section2" data-speed="6" data-type="background">
-					</section>
-					</div> -->
 				<div class="col-xs-12">
 					<h2>Recent Adventures</h2>
 					<div id="myCarousel" class="carousel CarouselImg slide text-center" data-ride="carousel">
@@ -128,7 +123,7 @@
 			</div>
 		</div>
 		<br>
-		<!-- MAP -->
+		<!-- MAP which shows pins from locations we visisted -->
 		<div id="map" class="container-fluid bg-grey">
 			<h2>Where We've Been</h2>
 			<div id="googleMap" class="col-xs-12" style="height:600px;width:100%;"></div>
